@@ -1,7 +1,7 @@
 import _ from 'lodash';
 
 export default function(start, end) {
-  const numbers = _.range(1, 100);
+  const numbers = _.range(start, end);
   let samples;
 
   const value = function() {
