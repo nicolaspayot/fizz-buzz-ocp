@@ -16,11 +16,16 @@
     "babel-register": "^6.7.2",
     "eslint": "^2.6.0",
     "faucet": "0.0.1",
-    "lodash": "^4.6.1"
+    "lodash": "^4.6.1",
+    "multiples": "^1.0.1"
   },
   "ava": {
-    "files": ["test/**/*.test.js"],
-    "source": ["src/**/*.js"],
+    "files": [
+      "test/**/*.test.js"
+    ],
+    "source": [
+      "src/**/*.js"
+    ],
     "require": [
       "babel-register"
     ],
